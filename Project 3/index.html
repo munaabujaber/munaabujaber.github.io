@@ -1,0 +1,446 @@
+<!--
+    University: International University of Sarajevo
+    Full Name: Muna Abu Jaber
+    Student ID: 180302043
+    Project: 3 (HTML, CSS and Javascript Resume)
+    Due Date: 09.12.2021.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+        <title>Muna Abu Jaber</title>
+        <link href="style.css" rel="stylesheet">
+        <!-- Google fonts -->
+<!--         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->        
+        <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400;500;600;700&family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400;500;600;700&family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Icons kit from Font Awesome -->
+        <script src="https://kit.fontawesome.com/b1270ee422.js" crossorigin="anonymous"></script>
+        <!-- including bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+      <!-- HEADER -->
+      <header class="primary-header">
+        <div>
+          <a href="index.html">
+            <img src="heart-logo.png" alt="logo" class="logo">
+          </a>
+
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <nav>
+          <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+            <li class="active">
+              <a href="#Home">
+                <span aria-hidden="true">00</span>Home
+              </a>
+            </li>
+            <li>
+              <a href="#AboutMe">
+                <span aria-hidden="true">01</span>About Me
+              </a>
+            </li>
+            <li>
+              <a href="#AcademicBg">
+                <span aria-hidden="true">02</span>Academic Background
+              </a>
+            </li>
+            <li>
+              <a href="#Interests">
+                <span aria-hidden="true">03</span>Interests
+              </a>
+            </li>
+<!--             <li>
+              <a href="#Projects">
+                <span aria-hidden="true">04</span>Projects
+              </a>
+            </li> -->
+            <li>
+              <a href="#skills-section">
+                <span aria-hidden="true">04</span>Skills
+              </a>
+            </li>
+            <li>
+              <a href="#ContactMe">
+                <span aria-hidden="true">05</span>Contact Me
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+
+
+      <!-- BODY -->
+      <div class="main-body">
+        <div id="progressbar-page">
+
+        </div>
+        <div class="cup-of-liquid">
+          <div class="liquid">
+            <div class="liquid-wave">
+
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Bootstrap carousel -HOME - WELCOME -->
+        <div id="Home" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#Home" data-slide-to="0" class="active"></li>
+                <li data-target="#Home" data-slide-to="1"></li>
+                <li data-target="#Home" data-slide-to="2"></li>
+                <li data-target="#Home" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-item-home active" data-interval="3000">
+                    <div class="overlay-image" style="background-image: url('bg10.jpg')"></div>
+                    <div class="container container-home">
+                            <h1>Hi!</h1>
+                        </div>
+                </div>
+                <div class="carousel-item carousel-item-home" data-interval="3000">
+                    <div class="overlay-image" style="background-image: url('bg10.jpg')"></div>
+                    <div class="container container-home">
+                        <h1>My name is Muna Abu Jaber.</h1>
+                    </div>                
+                </div>
+                <div class="carousel-item carousel-item-home" data-interval="3000">
+                  <div class="overlay-image" style="background-image: url('bg10.jpg')"></div>
+                    <div class="container container-home">
+                        <h1>Welcome to my portfolio!</h1>
+                    </div>                
+                </div>
+                <div class="carousel-item carousel-item-home" data-interval="4000">
+                  <div class="overlay-image" style="background-image: url('bg10.jpg')"></div>
+                  <div class="container container-home">
+                          <h1>Grab your blueberry milk on the left and allow me to introduce myself!</h1>
+                      </div>
+              </div>
+            </div>
+<!--             <a href="#Home" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="sr-only">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a href="#Home" class="carousel-control-next" role="button" data-slide="next">
+                <span class="sr-only">Previous</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a> -->
+        </div>
+
+        <!-- ABOUT ME-->
+        <div id="AboutMe" class="about-me">
+          <div class="card">
+            <div class="profile-sidebar">
+              <img class="about-me-img" src="me.png" alt="Muna Abu Jaber - Profile Picture">
+              <ul class="social-list">
+                <li class="social-item">
+                  <a aria-label="LinkedIN" class="social-link" href="https://www.linkedin.com/in/muna-abu-jaber-b5a38a201/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-item">
+                  <a aria-label="eMail" class="social-link" href="mailto:munaabujaber@outlook.com"><i class="fas fa-envelope"></i></a></li>
+                <li class="social-item">
+                  <a aria-label="Phone" class="social-link" href="tel:+387603166032"><i class="fas fa-phone-square-alt"></i></a></li>
+              </ul>
+            </div>
+            <div class="profile-main">
+              <h2 class="profile-name">Muna Abu Jaber</h2>
+              <p class="profile-position">Senior Student of Electrical and Electronics Engineering</p>
+              <p class="profile-body">I am Muna Abu Jaber, a girl born on 11/11/1999 in Sarajevo, Bosnia and 
+                Herzegovina, where I grew up and am currently living in. I'm a bachelor engineering 
+                student with a GPA of 3.62, studying Electrical and 
+                Electronics Engineering and taking a minor in Computer 
+                Science at International University of Sarajevo. I am an ambitious, curious, hard-working,
+                and responsible person, dedicated to my studies, but also taking out time to strenghten 
+                skills in other non-study related fields, such as art, cooking and esports. I love to challenge
+                myself in order to keep growing in all aspects of my life.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- ACADEMIC BACKGROUND -->
+        <div id="AcademicBg" class="academic-bg">
+          <div class="accordion-one">
+            <div>
+              <input type="checkbox" name="education_accordion" id="education1" class="accordion-input-one">
+              <label for="education1" class="accordion-label-one">ELEMENTARY SCHOOL</label>
+              <div class="accordion-content-one">
+                <p>
+                  Due to having a dynamic childhood, I have moved around across the city and had to
+                  move to different elementary schools because of the distance. I have attended three
+                  elementary schools:
+                  <ul>
+                    <li>
+                      <p class="year-tag">2005 - 2006</p>
+                        Elementary School "Grbavica II" in Sarajevo
+                    </li></br>
+                    <li>
+                      <p class="year-tag">2006 - 2011</p>
+                        Elementary School "Hrasno" in Sarajevo
+                    </li></br>
+                    <li>
+                      <p class="year-tag">2011 - 2014</p>
+                        Elementary School "Vladislav Skarić" in Sarajevo
+                    </li></br>
+                  </ul>
+                  Throughout my elementary school education, I have shown excellent results and had 
+                  a GPA of 4.0 throughout all of the years. I have participated in numerous competitions
+                  regarding art, maths and physics.
+                </p>
+              </div>
+            </div>
+            <div>
+              <input type="checkbox" name="education_accordion" id="education2" class="accordion-input-one">
+              <label for="education2" class="accordion-label-one">HIGH SCHOOL</label>
+              <div class="accordion-content-one">
+                <p class="year-tag">2014 - 2018</p>
+                <p>
+                  <ul>
+                    <li>
+                      First Bosniak High School, Sarajevo
+                    </li>
+                  </ul>
+                  Graduated with honors in 2018, with a GPA of 4.92 / 5.00 throughout all four years
+                  of high school education. Similarly as in elementary school, in high school I have also
+                  participated in numerous maths and physics competitions.
+                </p>
+                <p>
+                  Some of my best achievments during high school include:
+                  <ul>
+                    <li style="list-style: circle; text-align: justify; margin-left: 2em;"">Class President from 2014 to 2015</li>
+                    <li style="list-style: circle; text-align: justify; margin-left: 2em;"">Numerous Math and Physics Regional competitions throughout all 4 years of high school, won 6th place on Regional and 21st place on Federal competition in Physics in 2017</li>
+                    <li style="list-style: circle; text-align: justify; margin-left: 2em;"">Seminar paper on "Graphs of Trigonometric Functions", 2017</li>
+                    <li style="list-style: circle; text-align: justify; margin-left: 2em;"">Graduation thesis on "Mechanics of the Human Locomotor System", 2018</li>
+                    </ul>
+                </p>
+              </div>
+            </div>
+            <div>
+              <input type="checkbox" name="education_accordion" id="education3" class="accordion-input-one">
+              <label for="education3" class="accordion-label-one">UNIVERSITY</label>
+              <div class="accordion-content-one">
+                <p class="year-tag">2018 - PRESENT</p>
+                <p>
+                  <ul>
+                    <li>
+                      International University of Sarajevo
+                    </li>
+                  </ul>
+                  Currently, I am a senior year student of Electrical and Electronics Engineering, 
+                  with a GPA of 3.62. I am also taking a minor in Computer Science. My particular fields 
+                  of interest within EE are automation applications and power electronics.
+                </p>
+                <p>Some of my best achievments during university education are:
+                  <ul>
+                      <li style="list-style: circle; text-align: justify; margin-left: 2em;">Seminar paper on "Technology and the Transformation of Work", 2018</li>
+                      <li style="list-style: circle; text-align: justify; margin-left: 2em;"">Developed a business plan for a pet-sitting company "SAME L.L.C."</li>
+                      <li style="list-style: circle; text-align: justify; margin-left: 2em;"">Published an IEEE paper on a project"Slotted Heart-shaped 4.77dB Microstrip Coupler", 2020</li>
+                      <li style="list-style: circle; text-align: justify; margin-left: 2em;"">Object-oriented programming project"Snake game", 2020</li>
+                      <li style="list-style: circle; text-align: justify; margin-left: 2em;"">Embedded Systems project"Mini Gaming Room" consisting of an LCD mini-game and a LED graphical audio/frequency equalizer, 2020</li>
+                      <li style="list-style: circle; text-align: justify; margin-left: 2em;"">Machine Learning project using Neural Network and k-Nearest Neighbors methods on "Effects of Life Factors on Studying", 2020</li>
+                      </ul>
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- INTERESTS -->
+        <div id="Interests" class="interestss">
+          <!-- EEE & CSE -->   
+          <div class="interests-text">
+            <h2 class="interests-header">
+              ELECTRICAL AND ELECTRONICS ENGINEERING & COMPUTER SCIENCE
+            </h2>
+            <p class="interests-paragraph">
+              Currently, I'm studying E&E Engineering at IUS, and taking a minor 
+              in Computer Science. I love to code and to study and solve complex 
+              problems in electronics! After getting my Bachelor's degree in EE, 
+              I would like to study Masters in either Computer Engineering, 
+              Advanced Automation and Robotic Systems, or Automotive Advanced 
+              Driver Assistance Systems.
+            </p>
+          </div>
+          
+          <div class="mycarousel-container2">
+            <i class="fas fa-chevron-left" id="myprevbtn2"></i>
+            <i class="fas fa-chevron-right" id="mynextbtn2"></i>
+            <div class="mycarousel-slide2">
+                <img src="carousel images/im5.jpg" id="mylast-clone2" alt="">                    
+                <img src="carousel images/im1.jpg" alt="">
+                <img src="carousel images/im2.jpg" alt="">
+                <img src="carousel images/im3.jpg" alt="">
+                <img src="carousel images/im4.jpg" alt="">
+                <img src="carousel images/im5.jpg" alt="">
+                <img src="carousel images/im1.jpg" id="myfirst-clone2" alt="">
+            </div></br>
+          </div>
+
+
+          <!-- ART DESIGN AND PHOTOGRAPHY -->
+          <div class="interests-text">
+            <h2 class="interests-header">
+              Arts, Crafts and Photography
+            </h2>
+            <p class="interests-paragraph">
+              I am a creative person. I love to design and create new things and pieces. 
+              I like to draw mandalas, nature and other inanimate things, real or imaginary. 
+              I like photography and finding good angles to picture things. I like modeling 
+              and inventing new accessories and crafts. It is something that I do with my 
+              whole heart and I love to implement creativity in all aspects of my life.
+            </p>
+          </div>
+
+          <div class="mycarousel-container">
+            <i class="fas fa-chevron-left" id="myprevbtn"></i>
+            <i class="fas fa-chevron-right" id="mynextbtn"></i>
+            <div class="mycarousel-slide">
+                <img src="carousel images 2/im5.jpg" id="mylast-clone" alt="">                    
+                <img src="carousel images 2/im1.jpg" alt="">
+                <img src="carousel images 2/im2.jpg" alt="">
+                <img src="carousel images 2/im3.jpg" alt="">
+                <img src="carousel images 2/im4.jpg" alt="">
+                <img src="carousel images 2/im5.jpg" alt="">
+                <img src="carousel images 2/im1.jpg" id="myfirst-clone" alt="">
+            </div></br>
+          </div>
+
+
+
+        </div>
+
+
+        <!-- PROJECTS -->
+<!--         <div id="Projects" class="projects">
+
+        </div> -->
+
+
+        <!-- SKILLS -->
+        <div id="skills-section" class="skills-container">
+          <div class="skills-title">
+            MY SKILLS
+          </div>
+          <div class="skills">
+            <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="90"></div>
+            </div>
+          </div>
+    
+          <div class="skill">
+            <div class="skill-name">C/C++ (with embedded systems application)</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="70"></div>
+            </div>
+          </div>
+    
+          <div class="skill">
+            <div class="skill-name">r language</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="60"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">matlab & simulink</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="65"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">ltspice</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="70"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">Javascript</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="30"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">html5</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="90"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">css3</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="65"></div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        </div>
+
+
+      <!-- FOOTER -->
+      <footer id="ContactMe" class="main-footer">
+        <div class="footer-inside">
+          <div class="footer-waves">
+            <div class="footer-wave" id="wave1"></div>
+            <div class="footer-wave" id="wave2"></div>
+            <div class="footer-wave" id="wave3"></div>
+            <div class="footer-wave" id="wave4"></div>
+          </div>
+          <ul class="social-icons">
+            <li><a href="https://www.facebook.com/abujaber.muna/"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com/munalizzza/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/munalizzza"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="mailto: munaabujaber@outlook.com"><i class="fas fa-envelope"></i></a></li>
+            <li><a href="tel: +387603166032"><i class="fas fa-phone-square-alt"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/muna-abu-jaber-b5a38a201/"><i class="fab fa-linkedin"></i></a></li>
+
+          </ul>
+<!--           <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-discord"></i></a></li>
+            <li><a href="#"><i class="fab fa-steam"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitch"></i></a></li>            
+          </ul> -->
+          <p class="footer-credits">CREDITS</p>
+          <p class="footer-accreditation">
+            Photo by <a href="https://unsplash.com/@hellocolor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Nolbert</a> on <a href="https://unsplash.com/s/photos/ocean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          </output></p></br>
+          <p class="footer-rights">© 2021 MUNA ABU JABER</p>
+        </div>
+      </footer>
+      <script type="text/javascript" src="app.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    </body>
+</html>
